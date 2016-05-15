@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherCat</string>
+    <string name="refresh">Temprature refreshed!</string>
+    <string name="temp">%1$.1f °C</string>
+</resources>
