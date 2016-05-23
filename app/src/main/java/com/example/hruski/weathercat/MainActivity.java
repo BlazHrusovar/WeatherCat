@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hruski.weathercat.model.WeatherData;
+import com.squareup.okhttp.OkHttpClient;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         Log.i(TAG, "Hey");
 
         Button refresh = (Button) findViewById(R.id.button);
